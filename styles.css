@@ -1,0 +1,176 @@
+/* ======================
+   GENERAL FONT & BODY
+====================== */
+body, p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #FFFFFF;
+    background-color: #121212; /* Overall dark background */
+}
+
+
+
+/* ======================
+   SIDEBAR STYLING
+====================== */
+section[data-testid="stSidebar"] {
+    background-color: transparent; /* Removed background color */
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+
+
+
+
+/* Sidebar headings and content */
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] div {
+    color: #FFFFFF;
+    background-color: transparent; /* Removed background color */
+}
+
+
+
+
+
+/* Sidebar radio buttons */
+[data-testid="stSidebar"] .stRadio > div > label {
+    color: #FFFFFF;
+    padding: 8px;
+    background-color: transparent; /* Removed background color */
+}
+
+/* Sidebar custom section box */
+.sidebar-section {
+    padding: 10px;
+    background-color: transparent; /* Removed background color */
+    margin-bottom: 1rem;
+}
+
+/* Sidebar agent buttons */
+.sidebar-section .stRadio > div > label {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border: 1px solid #000000; /* Black border for better visibility */
+}
+
+.sidebar-section .stRadio > div > label:hover {
+    background-color: #E0E0E0; /* Light gray on hover */
+    color: #000000; /* Keep text black */
+}
+
+/* Selected button styling */
+.sidebar-section .stRadio > div > label[data-selected="true"] {
+    background-color: #000000; /* Black background for selected */
+    color: #FFFFFF; /* White text for selected */
+}
+
+/* ======================
+   METRIC CARDS
+====================== */
+div[data-testid="metric-container"] {
+    border-radius: 8px;
+    background-color: transparent; /* Removed background color */
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+/* Metric title */
+div[data-testid="metric-container"] .metric-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Metric value */
+div[data-testid="metric-container"] .metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ======================
+   ALERTS & RISK CARDS
+====================== */
+.risk-alert {
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: transparent; /* Removed background color */
+    color: #FFFFFF;
+}
+
+.risk-alert.high {
+    background-color: transparent; /* Removed background color */
+}
+
+.risk-alert.low {
+    background-color: transparent; /* Removed background color */
+}
+
+/* ======================
+   BUTTONS
+====================== */
+button, .stButton>button {
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #2a5c8d;
+    border: none;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #3b6fa8;
+}
+
+/* ======================
+   FORM INPUTS
+====================== */
+textarea, input, select {
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: transparent; /* Removed background color */
+}
+
+/* ======================
+   TABS
+====================== */
+[data-testid="stTabs"] > div {
+    color: #FFFFFF;
+    background-color: transparent; /* Removed background color */
+}
+
+/* ======================
+   CONTAINERS / CARD BLOCKS
+====================== */
+.st-emotion-cache-1v0mbdj {
+    border-radius: 10px;
+    padding: 1rem;
+    color: #FFFFFF;
+    background-color: transparent; /* Removed background color */
+}
+
+/* ======================
+   ADDITIONAL TEXT ELEMENTS
+====================== */
+p, span, h1, h2, h3, h4, h5, h6 {
+    background-color: transparent; /* Ensure all text elements have no background */
+}
+
+/* ======================
+   SYSTEM STATUS
+====================== */
+/* System status text color */
+.system-status p {
+    color: #90EE90; /* Light green color for API Connected and Data Updated */
+}
+
